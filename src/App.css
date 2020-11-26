@@ -1,10 +1,18 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+}
+
+.App h2{
+  font-size: calc(60px + 2vmin);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  font-size: calc(10px + 2vmin);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -65,5 +73,9 @@ li .nav-item {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: #282c34;
+}
+
+.active{
+  background-color: #282c34;
 }

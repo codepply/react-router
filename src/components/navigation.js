@@ -9,9 +9,9 @@ export default class Navigation extends Component {
         return (
             <div className="nav-container">
                 <ul>
-                    <li><Link className="nav-item" to="/">Home</Link></li>
-                    <li><Link className="nav-item" to="/shop">Shop</Link></li>
-                    <li><Link className="nav-item" to="/contact">Contact</Link></li>
+                    <li><NavLink exact className="nav-item" to="/">Home</NavLink></li>
+                    <li><NavLink className="nav-item" to="/shop">Shop</NavLink></li>
+                    <li><NavLink className="nav-item" to="/contact">Contact</NavLink></li>
                 </ul>
             </div>
         )
